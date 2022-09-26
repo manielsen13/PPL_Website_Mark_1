@@ -26,7 +26,7 @@
 }
 
 .box1 {
-    height: 90vh;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -38,25 +38,32 @@
 }
 
 .hero {
-    font-size: 300px;
-    line-height: 1;
+
+  text-align: center;
+
+  font-size: 300px;
+  line-height: 1;
     
-    color: #A5FC4E;
+  color: #A5FC4E;
    
-    letter-spacing: 10px;
+  letter-spacing: 5px;
   
-    filter: drop-shadow(0 2px 7px #A5FC4E);
-
-    text-align: center;
+  filter: drop-shadow(0 2px 7px #A5FC4E);
+    
   }
 
-  .hero.subTitle {
-    border-top: solid 2px white;
-    border-bottom: solid 2px white;
-    color: white;
-    filter: drop-shadow(0 2px 7px white);
-    font-size: 30px;
-  }
+.hero.subTitle {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  color: white;
+  filter: drop-shadow(0 2px 7px white);
+  font-size: 30px;
+}
+
+.box1 button {
+  margin-top: 40px;
+  padding: 20px;
+}
 
 
 
