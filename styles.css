@@ -149,3 +149,21 @@
     flex-direction: column;
     
 }
+
+.trainingContainer {
+    display: flex;
+    flex-direction: column;
+
+    padding: 45px;
+
+    background-color: white;
+    color: black;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.trainingContainer li {
+    margin: 50px;
+    
+}
