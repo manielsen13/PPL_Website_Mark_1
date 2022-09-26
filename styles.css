@@ -52,7 +52,10 @@
     
   }
 
-.hero.subTitle {
+.subTitle {
+  line-height: 1;
+  letter-spacing: 5px;
+
   border-top: solid 2px white;
   border-bottom: solid 2px white;
   color: white;
