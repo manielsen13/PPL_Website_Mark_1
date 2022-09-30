@@ -1,9 +1,31 @@
+body {
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+}
+
+button {
+  background-color: white;
+  padding: 15px;
+  width: fit-content;
+  border: none;
+  border-radius: 25px;
+}
+
+.headerSmall, .headerMedium, .headerLarge, a {
+  font-family: 'Bebas Neue', serif;
+  font-size: 45px;
+
+  color: black;
+  text-shadow: 2px 2px #A5FC4E;
+}
+
 .navBar {
     display: flex;
     background-color: black;
     padding: 30px;
     align-items: center;
-
+  
+    Font-family: 'Bebas Neue', serif;
 }
 
 .navLinks {
@@ -12,6 +34,18 @@
     margin-right: auto;
     padding-left: 30px;
 
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: none;
+  
+}
+
+#selected {
+  border-bottom: solid 3px #A5FC4E;
 }
 
 .socialMediaLogos {
@@ -35,6 +69,8 @@
 
     justify-content: center;
     align-items: center;
+
+    font-family: 'Electrolize', Courier;
 }
 
 .hero {
@@ -43,6 +79,7 @@
 
   font-size: 300px;
   line-height: 1;
+  
     
   color: #A5FC4E;
    
@@ -68,13 +105,9 @@
   padding: 20px;
 }
 
-
-
-
-
 .pitcherVelosContainer {
     background-color: white;
-    color: purple;
+    color: black;
 
     display: flex;
     flex-direction: column;
@@ -109,8 +142,8 @@
     border-width: 5px;
     box-shadow: 8px -8px 0 -5px, 8px -8px 0 0 #000;
 
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 220px;
+    min-height: 220px;
 
 }
 
@@ -131,14 +164,19 @@
     color: white;
 }
 
+.stayInformedContainer .headerMedium {
+  color: #A5FC4E;
+  text-shadow: 2px 2px black;
+}
+
 .blockQuoteStyleBox {
    display: flex;
    flex-direction: column;
    gap: 10px;
 
-   border-left: 5px solid lime;
+   border-left: 5px solid #A5FC4E;
 
-   padding: 15px;
+   padding-left: 30px;
 
 }
 
@@ -146,9 +184,9 @@
     width: fit-content;
 }
 
-
 .footer {
-    background-color: gray;
+    background-color: black;
+    color: white;
 
     
     display: flex;
@@ -159,6 +197,11 @@
     padding: 50px;
 
     justify-content: center;
+}
+
+.footer .headerSmall {
+  color: #A5FC4E;
+  text-shadow: none;
 }
 
 .addressTexts {
@@ -230,6 +273,9 @@
     margin-bottom: 25px;
 }
 
+
+/*Store Page Stuff */
+
 .shopContainer {
     display: flex;
     flex-direction: column;
@@ -249,7 +295,7 @@
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    border-color: lime;
+    border-color: #A5FC4E;
 
     gap: 15px;
 
@@ -270,7 +316,7 @@
     border-style: solid;
     border-radius: 10px;
     border-width: 5px;
-    border-color: lime;
+    border-color: #A5FC4E;
 
     gap: 50px;
     padding: 40px;
