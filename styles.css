@@ -71,7 +71,7 @@ ul {
 }
 
 .box1 {
-    height: 100vh;
+    height: 70vh;
 
     display: flex;
     flex-direction: column;
