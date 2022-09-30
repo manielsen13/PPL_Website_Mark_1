@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   font-size: 18px;
+  background-color: #000;
 }
 
 button {
@@ -16,6 +17,10 @@ button {
 a {
   color: #4d7b1e;
   
+}
+
+.landingButton {
+  z-index: 10;
 }
 
 ul {
@@ -86,6 +91,21 @@ ul {
     font-family: 'Electrolize', Courier;
 }
 
+.box1Home {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Electrolize', Courier;
+
+}
+
 .hero {
 
   text-align: center;
@@ -111,11 +131,12 @@ ul {
   color: white;
   filter: drop-shadow(0 2px 7px white);
   font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.box1 button {
+.box1 button, .box1Home button {
   margin-top: 40px;
-  padding: 20px;
 }
 
 .pitcherVelosContainer {
@@ -259,6 +280,8 @@ ul {
     justify-content: center;
     align-items: center;
 
+    text-align: center;
+
     background-color: white;
     padding: 40px;
     gap: 15px;
@@ -276,14 +299,30 @@ ul {
     padding: 50px;
 }
 
+
 .processContainer .headerMedium {
     align-self: center;
+    color: #A5FC4E;
+    text-shadow: 2px 2px black;
 }
 
 .stepTopContainer {
     display: flex;
     gap: 15px;
     margin-bottom: 25px;
+    align-items: center;
+}
+
+.stepNumber {
+  border-style: double;
+  color: #A5FC4E;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.stepTitle {
+  font-size: 25px;
+  
 }
 
 
