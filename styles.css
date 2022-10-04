@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', serif;
   font-size: 18px;
   background-color: #000;
+
 }
 
 button {
@@ -89,6 +90,8 @@ ul {
     align-items: center;
 
     font-family: 'Electrolize', Courier;
+
+  
 }
 
 .box1Home {
@@ -293,7 +296,7 @@ ul {
     flex-direction: column;
     gap: 40px;
 
-    background-color: black;
+    background-color: #222222;
     color: white;
 
     padding: 50px;
@@ -332,7 +335,7 @@ ul {
     display: flex;
     flex-direction: column;
 
-    background-color: black;
+    background-color: #222222;
     color: white;
 
     padding: 30px;
