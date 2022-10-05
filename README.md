@@ -8,4 +8,4 @@ Currently, the PPL wesbite is designed in a way where it needs to be updated all
 
 By making this website, even in this basic form, I'll be able to give PPL a decent-looking, responsive website that requires little to no maintenance, so they can focus on communicating with clients via social media.
 
-I have a list of features to implement in a new version of this site, but I wanted to create something shippable quickly, so I could continue to learn more about web development. Some things I played around with and learned more about during this project.
+I have a list of features to implement in a new version of this site, but I wanted to create something shippable quickly, so I could continue to learn more about web development. Some things I played around with and learned more about during this project. 
