@@ -8,8 +8,8 @@ body {
 button {
   background-color: white;
   padding: 15px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
   width: fit-content;
   border: none;
   border-radius: 25px;
@@ -129,7 +129,7 @@ ul {
 
   text-align: center;
 
-  font-size: 300px;
+  font-size: 200px;
   line-height: 1;
   
     
@@ -149,7 +149,8 @@ ul {
   border-bottom: solid 2px white;
   color: white;
   filter: drop-shadow(0 2px 7px white);
-  font-size: 30px;
+  font-size: 25px;
+
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -166,18 +167,24 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
-    gap: 10px;
+    gap: 15px;
 
     padding: 50px;
 
 }
 
 .cardList {
+
     display: flex;
-    gap: 120px;
-    margin-top: 45px;
-    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    
 
     
 }
@@ -209,9 +216,9 @@ ul {
     display: flex;
     flex-direction: column;
 
-    gap: 70px;
+    gap: 50px;
 
-    padding: 75px;
+    padding: 50px;
 
     background-color: black;
     color: white;
@@ -225,7 +232,7 @@ ul {
 .blockQuoteStyleBox {
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   gap: 20px;
 
    border-left: 5px solid #A5FC4E;
 
@@ -259,6 +266,8 @@ ul {
 
 .addressTexts {
     display: flex;
+    flex-wrap: wrap;
+    gap:20px;
 }
 
 .leftSide {
@@ -277,8 +286,9 @@ ul {
 .trainingContainer {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 
-    padding: 45px;
+    padding: 50px;
 
     background-color: white;
     color: black;
@@ -287,9 +297,13 @@ ul {
     align-items: center;
 }
 
-.trainingContainer li {
-    margin: 50px;
-    
+.trainingContainer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+
+  
 }
 
 .aboutUsContainer {
@@ -302,7 +316,7 @@ ul {
     text-align: center;
 
     background-color: white;
-    padding: 40px;
+    padding: 50px;
     gap: 15px;
 }
 
@@ -354,7 +368,7 @@ ul {
     background-color: #222222;
     color: white;
 
-    padding: 30px;
+    padding: 50px;
     gap: 40px;
 
 }
@@ -374,7 +388,7 @@ ul {
     border-width: 5px;
     border-color: #A5FC4E;
 
-    gap: 15px;
+    gap: 30px;
 
     padding: 40px;
 
@@ -385,7 +399,11 @@ ul {
 
 .snackBarButtons {
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
+    
+
+    justify-content: center;
 }
 
 .socialContainer {
@@ -1036,6 +1054,30 @@ ul {
       border-bottom: solid 2px #222222;
   }
 
+  .hero {
+
+    text-align: center;
+  
+    font-size: 100px;
+    line-height: 1;
+    
+      
+    color: #A5FC4E;
+     
+    letter-spacing: 5px;
+    
+    filter: drop-shadow(0 2px 7px #A5FC4E);
+      
+    }
+  
+  .subTitle {
+    line-height: 1;
+    letter-spacing: 2px;
+  
+    font-size: 16px;
+  
+  }
+  
   .toggleButton {
       display: flex;
   }
