@@ -449,8 +449,6 @@ ul {
 
 
 
-
-
 /* THE CODE BELOW IS A BLACK BOX (KIND OF) FOR THE GLITCHING TITLE*/
   
   .layers {
@@ -1077,6 +1075,17 @@ ul {
     filter: drop-shadow(0 2px 7px #A5FC4E);
       
     }
+
+  .logo {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+  }
+
+  .logo img {
+    width: 65px;
+    height: 65px;
+  }
   
   .subTitle {
     line-height: 1;
