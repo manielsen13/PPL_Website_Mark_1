@@ -47,6 +47,13 @@ ul {
     Font-family: 'Bebas Neue', serif;
 }
 
+.logo img {
+  width: 100px;
+  height: 100px;
+
+
+}
+
 .navLinks {
     display: flex;
     gap: 30px;
